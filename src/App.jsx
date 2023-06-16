@@ -1,16 +1,9 @@
-import React from "react";
-import "./App.css";
+import GithubUsers from "./components/GithubUsers";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src="/logo.svg" className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.jsx</code> and save to reload!
-        </p>
-        <span className="App-link">Hello from codedamn :)</span>
-      </header>
+    <div>
+      <GithubUsers />
     </div>
   );
 }
